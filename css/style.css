@@ -20,3 +20,7 @@
     bottom: 0;
     width: 100%;
   }
+  p {
+        text-align: center;
+        padding: 50px;
+  }
