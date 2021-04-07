@@ -1,79 +1,79 @@
 'use strict';
 
-let userName = prompt('What\'s your name ');
-console.log(userName);
-alert('Welcome to my website ' + userName);
-alert('Am gonna ask you five questions please answer by yes/y or no/n');
-let score = 0;
+// let userName = prompt('What\'s your name ');
+// console.log(userName);
+// alert('Welcome to my website ' + userName);
+// alert('Am gonna ask you five questions please answer by yes/y or no/n');
+// let score = 0;
 
-function userChoice(question)
-{
-  while(question !== 'yes' && question !== 'y' && question !== 'no' && question !== 'n')
-  {
-    question = prompt('please answer with either yes/y or no/n');
-  }
-  return question;
-}
+// function userChoice(question)
+// {
+//   while(question !== 'yes' && question !== 'y' && question !== 'no' && question !== 'n')
+//   {
+//     question = prompt('please answer with either yes/y or no/n');
+//   }
+//   return question;
+// }
 
-function mySwitch(question)
-{
-  switch(question)
-  {
-  case 'yes':
-  case 'y' :
-    alert('yes, i actually do');
-    score++;
-    break;
-  case 'no':
-  case 'n' :
-    alert('no, i actually do');
-    break;
-  default:
-    alert('please answer with either yes/y or no/n');
-  }
-}
-
-
+// function mySwitch(question)
+// {
+//   switch(question)
+//   {
+//   case 'yes':
+//   case 'y' :
+//     alert('yes, i actually do');
+//     score++;
+//     break;
+//   case 'no':
+//   case 'n' :
+//     alert('no, i actually do');
+//     break;
+//   default:
+//     alert('please answer with either yes/y or no/n');
+//   }
+// }
 
 
-function mySwitch1(question)
-{
-  switch(question)
-  {
-  case 'yes':
-  case 'y' :
-    alert('no, i actually don\'t');
-    break;
-  case 'no':
-  case 'n' :
-    alert('yes, i actually don\'t');
-    score++;
-    break;
-  default:
-    alert('please answer with either yes/y or no/n');
-  }
-}
 
 
-let question1 = prompt('Do i like flafel');
-console.log(question1);
-mySwitch(userChoice(question1.toLowerCase()));
+// function mySwitch1(question)
+// {
+//   switch(question)
+//   {
+//   case 'yes':
+//   case 'y' :
+//     alert('no, i actually don\'t');
+//     break;
+//   case 'no':
+//   case 'n' :
+//     alert('yes, i actually don\'t');
+//     score++;
+//     break;
+//   default:
+//     alert('please answer with either yes/y or no/n');
+//   }
+// }
 
-let question2 = prompt('Do i like hummus');
-console.log(question2);
-mySwitch(userChoice(question2.toLowerCase()));
 
-let question3 = prompt('Do i like shawarma');
-console.log(question3);
-mySwitch(userChoice(question3.toLowerCase()));
+// let question1 = prompt('Do i like flafel');
+// console.log(question1);
+// mySwitch(userChoice(question1.toLowerCase()));
 
-let question4 = prompt('Do i like mansaf');
-console.log(question4);
-mySwitch1(userChoice(question4.toLowerCase()));
+// let question2 = prompt('Do i like hummus');
+// console.log(question2);
+// mySwitch(userChoice(question2.toLowerCase()));
 
-let question5 = prompt('Do i like mutton');
-console.log(question5);
-mySwitch1(userChoice(question5.toLowerCase()));
+// let question3 = prompt('Do i like shawarma');
+// console.log(question3);
+// mySwitch(userChoice(question3.toLowerCase()));
+
+// let question4 = prompt('Do i like mansaf');
+// console.log(question4);
+// mySwitch1(userChoice(question4.toLowerCase()));
+
+// let question5 = prompt('Do i like mutton');
+// console.log(question5);
+// mySwitch1(userChoice(question5.toLowerCase()));
 
 function question6(){
 alert('for the next quiz, you have four opportunities to get the correct answer');
@@ -108,7 +108,7 @@ if(i===4)
 }
 question6 ();
 
-
+function question7(){
 alert('Guess my favorite Music Band, you only have 6 attempts!');
 let favBand = ['LINKIN PARK','BREAKING BENJAMIN','THREE DAYS GRACE','AVENGED SEVENFOLD','MY CHEMICAL ROMANCE','SIMPLE PLAN','FALL OUT BOY'];
 loop1:
@@ -129,3 +129,5 @@ for(let j=6 ; j>0 ; j--)
 alert('All The Possible Right Answers Are As Follows! : '+ favBand);
 alert('Your Final Score is ' + score );
 alert('Thank you for visting my website Mr/Ms ' + userName);
+}
+question7();
