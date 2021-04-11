@@ -75,7 +75,7 @@ let question5 = prompt('Do i like mutton');
 console.log(question5);
 mySwitch1(userChoice(question5.toLowerCase()));
 
-function question6(){
+//function question6(){
 alert('for the next quiz, you have four opportunities to get the correct answer');
 
 let i=0;
@@ -105,10 +105,10 @@ for( i; i<4;)
 
 if(i===4)
   alert('you have used up all your chances the correct answer is 50');
-}
-question6 ();
+//}
+//question6 ();
 
-function question7(){
+//function question7(){
 alert('Guess my favorite Music Band, you only have 6 attempts!');
 let favBand = ['LINKIN PARK','BREAKING BENJAMIN','THREE DAYS GRACE','AVENGED SEVENFOLD','MY CHEMICAL ROMANCE','SIMPLE PLAN','FALL OUT BOY'];
 loop1:
@@ -129,7 +129,7 @@ for(let j=6 ; j>0 ; j--)
 alert('All The Possible Right Answers Are As Follows! : '+ favBand);
 alert('Your Final Score is ' + score );
 alert('Thank you for visting my website Mr/Ms ' + userName);
-}
-question7();
+//}
+//question7();
 
-alert(' This is my job');
+//alert(' This is my job');
